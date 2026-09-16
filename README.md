@@ -1,8 +1,6 @@
-# Portfolio — Yasmine Diallo (template)
+# Portfolio — Papa Mbaye BA
 
-Portfolio multi-pages en HTML / CSS / JavaScript vanilla, inspiré de la
-maquette fournie mais avec une identité visuelle propre (fond sombre,
-accents indigo/teal, titres en Fraunces, texte en Inter).
+Portfolio multi-pages en HTML / CSS / JavaScript vanilla.
 
 ## Structure
 
@@ -45,27 +43,7 @@ ou du JS n'est nécessaire :
 
 - **Nom / bio / contact** → `data/profile.json`
 - **Parcours** → `data/about.json`
-- **Compétences** (Langages & Frameworks, DevOps, CMS
-  "À compléter" prête à l'emploi) → `data/skills.json`
+- **Compétences** (Langages & Frameworks, DevOps, CMS) → `data/skills.json`
 - **Projets** (statut `termine` / `en_cours` / `a_venir`, liens site et
   GitHub optionnels) → `data/projects.json`
 - **Services** → `data/services.json`
-
-Pour ajouter une image de projet, déposez un fichier dans
-`public/images/` et référencez son chemin dans `image` du projet
-correspondant dans `data/projects.json`.
-
-Remplacez `public/documents/cv.pdf` par votre propre CV (même nom de
-fichier, ou mettez à jour `cvUrl` dans `profile.json`).
-
-## Lancer le site en local
-
-Comme le site charge les fichiers JSON via `fetch`, il doit être servi
-par un serveur local (pas ouvert en double-clic sur `index.html`) :
-
-```bash
-cd portfolio
-python3 -m http.server 8000
-```
-
-Puis ouvrez `http://localhost:8000` dans votre navigateur.
