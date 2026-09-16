@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {
+      "id": "langages",
+      "label": "Langages",
+      "items": [
+        { "name": "Java", "level": 50 },
+        { "name": "JavaScript / TypeScript", "level": 90 },
+        { "name": "HTML / CSS", "level": 95 },
+        { "name": "PHP", "level": 62 }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "label": "Frameworks",
+      "items": [
+        { "name": "Spring Boot", "level": 50 },
+        { "name": "React", "level": 85 },
+        { "name": "Flask", "level": 78 }
+      ]
+    },
+    {
+      "id": "devops",
+      "label": "Technologies DevOps",
+      "items": [
+        { "name": "Git & GitHub Actions", "level": 85 },
+        { "name": "Docker", "level": 70 },
+        { "name": "CI / CD", "level": 72 },
+        { "name": "Nginx", "level": 58 }
+      ]
+    },
+    {
+      "id": "cms",
+      "label": "CMS",
+      "items": [
+        { "name": "WordPress", "level": 80 },
+        { "name": "Wix", "level": 68 },
+        { "name": "Shopify", "level": 55 }
+      ]
+    }
+  ]
+}

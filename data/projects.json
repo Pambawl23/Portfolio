@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Voyagealy — Site Web",
+    "status": "termine",
+    "category": "Site web",
+    "description": "Site web pour une agence de voyage : design sur mesure, intégration front-end et optimisation SEO.",
+    "Client": "BAODIGITAL",
+    "image": "public/images/voyagealy.png",
+    "site": "https://www.voyagealy.com/",
+    "github": "https://github.com/Pambawl23/Site-Voyage",
+    "tags": ["TypeScript", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "title": "LAWAM Consulting",
+    "status": "termine",
+    "category": "Site web",
+    "description": "Site web pour un centre d'appels : design sur mesure, intégration front-end et optimisation SEO.",
+    "Client": "BAODIGITAL",
+    "image": "public/images/Logo-Lawam.png",
+    "site": "https://www.lawam-consulting.com/",
+    "github": "https://github.com/Pambawl23/Site-LAWAM",
+    "tags": ["React", "Node.js", "D3.js"]
+  },
+  {
+    "id": 3,
+    "title": "Kōra — Site vitrine studio",
+    "status": "en_cours",
+    "category": "Site web",
+    "description": "Nouveau site pour un studio de création : direction artistique, animation au scroll et intégration front-end sur mesure.",
+    "image": "public/images/project-kora.svg",
+    "site": "",
+    "github": "https://github.com/",
+    "tags": ["HTML/CSS", "JavaScript"]
+  }
+]

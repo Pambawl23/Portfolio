@@ -1,0 +1,6 @@
+[
+  { "step": "1", "title": "Cadrage", "description": "Comprendre le besoin, les contraintes et les utilisateurs avant de dessiner quoi que ce soit." },
+  { "step": "2", "title": "Conception", "description": "Wireframes, prototypes et allers-retours jusqu'à une direction claire." },
+  { "step": "3", "title": "Développement", "description": "Intégration propre, testée, avec un œil sur la performance et l'accessibilité." },
+  { "step": "4", "title": "Suivi", "description": "Mise en ligne, ajustements et transmission de la documentation." }
+]

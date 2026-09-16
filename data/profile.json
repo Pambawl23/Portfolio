@@ -1,0 +1,21 @@
+{
+  "name": "Papa Mbaye BA",
+  "initials": "PMB",
+  "role": "Développeur web",
+  "eyebrow": "Portfolio",
+  "tagline": "Des produits web conçus pour répondre à de vrais besoins.",
+  "bio": "Je travaille à la frontière du design et du développement : je dessine des interfaces, je construis les design systems qui les tiennent debout, puis je les code moi-même. Cinq ans à faire les deux m'ont appris qu'un bel écran qui ne se code pas bien ne sert à personne.",
+  "stats": [
+    { "value": "3+", "label": "Années d'expérience" },
+    { "value": "3+", "label": "Projets menés" },
+    { "value": "5+", "label": "Clients accompagnés" }
+  ],
+  "location": "Dakar, Sénégal",
+  "email": "bapapambaye4@gmail.com",
+  "phone": "+221 77 041 76 03",
+  "cvUrl": "public/documents/CV_Papa_Mbaye_BA.pdf",
+  "social": [
+    { "label": "GitHub", "url": "https://github.com/Pambawl23" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/" }
+  ]
+}

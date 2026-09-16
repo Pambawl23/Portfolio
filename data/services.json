@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Développement de sites & applications web",
+    "summary": "Des expériences web modernes et des applications sur mesure pour transformer vos idées en solutions digitales concrètes.",
+    "includes": [
+      "Sites vitrines et institutionnels",
+      "Applications web sur mesure (React, Node.js)",
+      "Intégration CMS (WordPress, Wix, Shopify)",
+      "Mise en place de CI/CD et hébergement"
+    ],
+    "icon": "code"
+  },
+ {
+  "id": 2,
+  "title": "API & solutions back-end",
+  "summary": "Des back-ends robustes et des API fiables pour connecter vos applications et gérer vos données.",
+  "includes": [
+    "Conception et développement d'API REST",
+    "Développement de services back-end",
+    "Gestion et intégration de bases de données",
+    "Connexion entre applications et services externes"
+  ],
+  "icon": "server"
+},
+  {
+    "id": 3,
+    "title": "UI / UX Design",
+    "summary": "Des interfaces conçues à partir de besoins réels, testées et affinées avant d'être codées.",
+    "includes": [
+      "Recherche utilisateur et parcours",
+      "Wireframes et prototypes interactifs",
+      "Interfaces desktop et mobile",
+      "Tests d'utilisabilité et itérations"
+    ],
+    "icon": "pen"
+  }
+]

@@ -1,0 +1,86 @@
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.service-row {
+  display: grid;
+  grid-template-columns: 90px 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  padding: clamp(1.8rem, 3vw, 2.6rem) 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+.service-row:first-child { border-top: 1px solid var(--border-soft); }
+
+.service-index {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--step2);
+  color: var(--text-faint);
+}
+
+.service-icon {
+  width: 46px; height: 46px;
+  border-radius: 12px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 1.1rem;
+}
+.service-main h3 { font-size: var(--step2); max-width: 16ch; }
+.service-main p { color: var(--text-muted); margin-top: 0.8rem; max-width: 42ch; font-size: var(--step-1); }
+
+.service-includes { display: flex; flex-direction: column; gap: 0.65rem; padding-top: 0.3rem; }
+.service-includes li {
+  display: flex; align-items: baseline; gap: 0.6em;
+  color: var(--text-muted); font-size: var(--step-1);
+}
+.service-includes li::before {
+  content: "";
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--teal);
+  flex: none;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 780px) {
+  .service-row { grid-template-columns: 1fr; gap: 0.8rem; }
+  .service-index { display: none; }
+}
+
+/* ===========================================================
+   Process strip
+   =========================================================== */
+.process-section { background: var(--surface); border-block: 1px solid var(--border-soft); }
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.1rem;
+}
+.process-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  background: var(--surface-2);
+  position: relative;
+}
+.process-card .step {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--accent-strong);
+  font-size: var(--step1);
+  margin-bottom: 0.9rem;
+  display: block;
+}
+.process-card h4 { font-size: var(--step0); margin-bottom: 0.5rem; }
+.process-card p { color: var(--text-muted); font-size: 0.86rem; }
+
+@media (max-width: 900px) {
+  .process-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .process-grid { grid-template-columns: 1fr; }
+}

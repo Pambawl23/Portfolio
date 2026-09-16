@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projets</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/projects.css">
+</head>
+<body>
+
+<a class="visually-hidden" href="#main">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="public/images/logo-dev.png" alt="">
+      <span>
+        Papa Mbaye BA
+        <span class="brand-role">Développeur web</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="projects.html" aria-current="page">Projets</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-cta">
+      <a class="btn btn-primary btn-small" href="index.html#contact">Me contacter</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">Projets</span>
+      <h1>Ce que j'ai construit, ce que je construis.</h1>
+      <p class="lead">Une sélection de projets terminés, en cours et à venir — sites, applications et systèmes de design.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="filter-bar">
+        <div class="filter-tabs" data-filter-tabs></div>
+        <span class="filter-count" data-filter-count></span>
+      </div>
+      <div class="project-full-grid" data-projects-grid></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" data-footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3 data-footer-name>Papa Mbaye BA</h3>
+        <p data-footer-tagline></p>
+        <ul class="footer-social" data-footer-social></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liens Rapides</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="projects.html">Projets</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a data-footer-email href="#"></a></li>
+          <li><a data-footer-phone href="#"></a></li>
+          <li><span data-footer-location></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-footer-year></span> Papa Mbaye BA. Tous droits réservés.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/projects.js"></script>
+</body>
+</html>

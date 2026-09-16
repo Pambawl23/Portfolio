@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+<a class="visually-hidden" href="#main">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="public/images/logo-dev.png" alt="">
+      <span>
+        Papa Mbaye BA
+        <span class="brand-role">Développeur web</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="index.html" aria-current="page">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="projects.html">Projets</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-cta">
+      <a class="btn btn-primary btn-small" href="#contact">Me contacter</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <h1 class="hero-name" data-hero-name>Papa Mbaye BA</h1>
+        <p class="hero-role" data-hero-role>Développeur web</p>
+        <p class="hero-tagline" data-hero-tagline></p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="projects.html">Voir mes projets</a>
+          <a class="btn btn-ghost" href="public/documents/cv.pdf" download>Télécharger le CV</a>
+        </div>
+
+        <div class="hero-stats" data-hero-stats></div>
+      </div>
+
+      <div class="hero-visual">
+        <img src="/public/images/0a696781-56a6-442e-ab1c-92a3f83c998e.JPG" alt="Illustration abstraite représentant le design et le développement d'interfaces">
+        <div class="badge">
+          <strong data-hero-badge-value>3+</strong>
+          <span>Années d'expérience</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Ce que je fais</h2>
+        <p>Trois façons de m'impliquer sur un projet, du premier wireframe au code en production.</p>
+      </div>
+      <div class="teaser-grid" data-services-teaser></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Projets récents</h2>
+        <a class="btn btn-ghost btn-small" href="projects.html">Tous les projets</a>
+      </div>
+      <div class="project-grid" data-featured-projects></div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="cta-band">
+        <h2>Un projet en tête ? Discutons-en.</h2>
+        <div class="cta-actions">
+          <a class="btn btn-primary" data-contact-email href="#">Envoyer un e-mail</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" data-footer>
+  <div class="wrap">
+    <div class="footer-top">
+  <div class="footer-brand">
+    <h3 data-footer-name>Papa Mbaye BA</h3>
+    <p data-footer-tagline></p>
+    <ul class="footer-social" data-footer-social></ul>
+  </div>
+  <div class="footer-col">
+    <h4>Liens Rapides</h4>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="about.html">À propos</a></li>
+      <li><a href="projects.html">Projets</a></li>
+      <li><a href="services.html">Services</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Contact</h4>
+    <ul>
+      <li><a data-footer-email href="#"></a></li>
+      <li><a data-footer-phone href="#"></a></li>
+      <li><span data-footer-location></span></li>
+    </ul>
+  </div>
+</div>
+    <div class="footer-bottom">
+      <span>© <span data-footer-year></span> Papa Mbaye BA. Tous droits réservés.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
